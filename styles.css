@@ -1,0 +1,69 @@
+.text-box h3:first-of-type {
+    color: pink; 
+  }
+  
+  #greycol {
+    color: grey; 
+  }
+  
+  .text-box div p {
+    color: red; 
+  }
+  
+  .text-box p:nth-of-type(6) {
+    color: green; 
+  }
+  
+  .yellow {
+    color: yellow; 
+  }
+  .schedule ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  .schedule li {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .monday {
+    background-color: lightblue; 
+  }
+  
+  .tuesday {
+    background-color: lightgreen; 
+  }
+  
+  .wednesday {
+    background-color: lightyellow; 
+  }
+  
+  .thursday {
+    background-color: lightcoral; 
+  }
+  
+  .friday {
+    background-color: lightpink; 
+  }
+  
+  /* Псевдокласи для ефектів */
+  .schedule li:hover {
+    opacity: 0.8; 
+  }
+  
+  .schedule li:first-child {
+    font-weight: bold; 
+  }
+  
+  .schedule li:last-child {
+    text-decoration: underline; 
+  }
+  
+  .schedule li:nth-child(odd) {
+    font-style: italic; 
+  }
+  
+  .schedule li:nth-child(even) {
+    border: 1px solid darkgray; 
+  }
